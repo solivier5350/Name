@@ -16,5 +16,9 @@ button.addEventListener("click", () => {
   else if (operator === "/") result = number2 !== 0 ? number1 / number2 : "Error: Div by 0";
   else result = "Invalid operator";
 
+if (isNaN(result)) {
+    result = "Invalid input";
+  }
+
   resultOutput.textContent = `Result: ${result}`;
 });
