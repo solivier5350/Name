@@ -1,0 +1,15 @@
+html {
+  background-color: black;
+}
+
+#calculator {
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+#result {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
