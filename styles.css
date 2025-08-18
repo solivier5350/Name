@@ -3,20 +3,39 @@
     width: 80%;
   }
 }
-
+/* Responsive design for smaller screens */
 
 html {
   background-color: black;
 }
+/* sets background color to black */
 
 #calculator {
   text-align: center;
   color: white;
   font-family: Arial, sans-serif;
 }
+/* styles the calculator title */
 
 #result {
   color: white;
   font-size: 20px;
   margin-top: 20px;
 }
+/* styles the result text */
+
+p{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+/* styles the paragraph text */
+
+.calc-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+/*centers the calculator controls and adds spacing*/

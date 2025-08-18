@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <title>Simple Calculator</title> <!-- Title of the page -->
   </head>
 
   <body>
-    <title>Simple Calculator</title>
-    <h1 id="calculator">Calculator</h1>
-    <input id="num1" type="number" placeholder="First number">
-    <input id="num2" type="number" placeholder="Second number">
-    <select id="op">
-      <option value="+">+</option>
-      <option value="-">-</option>
-      <option value="*">*</option>
-      <option value="/">/</option>
-    </select>
-    <button id="go">Calculate</button>
-    <p id="result"></p>
+    <h1 id="calculator">Calculator</h1>  <!-- Main heading -->
+    <p>Enter two numbers and select an operation:</p> <!-- Instruction text -->
+    <div class="calc-controls">
+      <input id="num1" type="number" placeholder="First number"> <!-- Input for the first number -->
+      <select id="op"> <!-- Dropdown for selecting the operation -->
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <input id="num2" type="number" placeholder="Second number"> <!-- Input for the second number -->
+      <button id="go">Calculate</button> <!-- Button to perform the calculation -->
+    </div>
+    <p id="result"></p> <!-- Paragraph to display the result -->
 
-    <script src="main.js"></script>
+    <script src="main.js"></script> <!-- Link to the JavaScript file -->
   </body>
 </html>
