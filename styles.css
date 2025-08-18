@@ -39,3 +39,22 @@ p{
   margin: 20px 0;
 }
 /*centers the calculator controls and adds spacing*/
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #afb7b9;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background-color: #555859;
+}
+
+button:active {
+  transform: scale(0.95); /* little "press" effect */
+}
